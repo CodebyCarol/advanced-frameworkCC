@@ -15,7 +15,7 @@ Plan for the period 06/18-06/29:
 
 
 []Codewars - java
-[]Codewars - Python - with 6, and 7 kyu (started from 169)
+[]Codewars - Python - 8kyu (4x) 7 kyu (1x) (rank started from 169)
 []creating SI week material about Machine Learning
 []preparing for Lensa interview (first round, written test)
 []writing test at Lensa
