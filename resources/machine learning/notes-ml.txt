@@ -1,0 +1,46 @@
+Reference book is:
+Machine Learning for humans (Vishal Maini, Samer Sabri)
+download it from here: https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12
+
+Part 1 (page 3-15)
+---------------------
+Summary notes:
+
+
+
+Part 2.1 (page 16-29)
+---------------------
+Summary notes:
+
+
+
+Part 2.2 (page 30-40)
+---------------------
+Summary notes:
+
+
+
+Part 2.3 (page 41-55)
+---------------------
+Summary notes:
+
+
+
+Part 3 (page 55-67)
+---------------------
+Summary notes:
+
+
+
+Part 4 (page 68-80)
+---------------------
+Summary notes:
+
+
+Part 5 (page 81-91)
+---------------------
+Summary notes:
+
+
+
+
