@@ -9,7 +9,7 @@ Plan for the period 06/18-06/29:
 
 06/25: Codewars - java AND python
 06/26: repeating from the tech interview questions book: OOP basics and binary search tree
-06/27: implementing binary search tree in python
+06/27: implementing binary search tree in python, consultation about python OOP with Miki
 06/28: creating a test book for a python tech interview (can be inserted into the tech interview questions book)
 06/29: starting again with the pet project, earlier has been validated, the scrummo (trello-like scrum page)
 
