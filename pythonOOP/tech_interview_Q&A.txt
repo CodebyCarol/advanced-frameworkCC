@@ -1,0 +1,145 @@
+----------------------------------------------------
+PYTHON SPECIFIC TECH INTERVIEW QUESTIONS (AND ANSWERS - still working on both)
+----------------------------------------------------
+
+What are the key features of Python? (basics)
+
+What is the difference between list and tuples? (data structures)
+
+What is the difference between range and xrange?
+
+How can you randomize the places of items in a list?
+  
+  from random import shuffle
+  
+  items=[A, B, C, D]
+  shuffle(items)
+  
+  print(items)
+
+What are negativ indexes and why we use them?
+
+How memory is managed in python?
+
+Define a class in python (OOP)
+
+Different types of inheritance in Python (single, multilevel, hierarchical, multiple) (OOP)
+
+What is the difference between deep and shallow copy? (OOP)
+
+What is pickling and unpickling?
+  Pickle module accepts any Python object and converts it into a string representation and dumps it into a file 
+  by using dump function, this process is called pickling. 
+  While the process of retrieving original Python objects from the stored string representation is called unpickling.
+
+Explain the use of decorators!
+    Decorators in Python are used to modify or inject code in functions or classes. 
+    Using decorators, you can wrap a class or function method call so that a piece of code can be executed before or after 
+    the execution of the original code. Decorators can be used to check for permissions, modify or track the arguments 
+    passed to a method, logging the calls to a specific method, etc.
+    
+    Usage examples:
+    
+    - Timing:
+      def time_dec(func):
+        def wrapper(*arg):
+          t = time.clock()
+          res = func(*arg)
+          print func.func_name, time.clock()-t
+          return res
+        return wrapper
+
+
+      @time_dec
+      def myFunction(n):
+        # code ...
+
+    - Type check:
+      def myMethod(ID, name):
+          if not (myIsType(ID, 'uint') and myIsType(name, 'utf8string')):
+              raise BlaBlaException() 
+              # code ...
+
+      @accepts(uint, utf8string)
+      def myMethod(ID, name):
+         # code ...
+
+What is Flask and its benefits?
+
+What is the usage of dir() and help() functions?
+
+Explain split(), sub(), subn() methods of "re" modules!
+
+How can you generate random numbers?
+
+What is monkey patching?
+  it is a dinamic modification of a class at runtime
+  
+  #m.py
+  class MyClass:
+  def func(self):
+      print("func()")
+  
+  monkey-patch testing:
+  
+  import m                //m.py
+  def monkey_f(self):
+      print("monkey_f()")
+      
+      m.MyClass.func=monkey_f
+      obj = m.Myclass
+      obj.func()
+      
+  >> the output is:
+     monkey_f()
+
+What does *args, **kwargs mean? When you use them?
+
+
+SHORT whiteboards/paper+pen/tests:
+**********************************
+
+1. Write a one-liner (if possible) to count capital letters in a file! 
+   Your code should work even if the file is too big to fit in the memory.
+   (First write a multiple line solution than convert it to one-liner)
+
+2. Write a sorting algorithm for a numerical dataset
+    (???)
+    list = ["1", "4", "0", "6", "9"]
+    list = [int(i) for i in list]
+    list.sort()
+    print (list)
+
+3. Looking at the below code, write down the final values of A0, A1, …An.
+	
+    A0 = dict(zip(('a','b','c','d','e'),(1,2,3,4,5)))
+    A1 = range(10)A2 = sorted([i for i in A1 if i in A0])
+    A3 = sorted([A0[s] for s in A0])
+    A4 = [i for i in A1 if i in A3]
+    A5 = {i:i*i for i in A1}
+    A6 = [[i,i*i] for i in A1]
+
+
+4. Which of the following is an invalid statement?
+    a) abc = 1,000,000
+    b) a b c = 1000 2000 3000
+    c) a,b,c = 1000, 2000, 3000
+    d) a_b_c = 1,000,000
+    A: (b) (spaces are not allowed in variable names)
+    
+    
+    5. What is the output of the following?
+        try:
+            if '1' != 1:
+                raise "someError"
+            else:
+                print("someError has not occured")
+        except "someError":
+            print ("someError has occured")
+
+        a) someError has occured
+        b) someError has not occured
+        c) invalid code
+        d) none of the above
+
+        A: c) invalid code (A new exception class must inherit from a BaseException. There is no such inheritance here.)
