@@ -21,6 +21,7 @@ Plan for the period 06/18-06/29:
 [1]writing test at Lensa
 [0]implementing binary search tree in python
 [1]reading about machine learning, watching videos about machine learning and big data
+[1] preparing for Lensa round 2 (I am optimistic :p) python OOP, consultation
 
-06/26: 9/3
+06/26: 9/4
 
