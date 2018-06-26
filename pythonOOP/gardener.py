@@ -1,3 +1,4 @@
+# in JAVA: public Class Plant{}
 class Plant:
 
     #ALL class members (including data members) are public in Python and all the methods are virtul.
@@ -30,9 +31,32 @@ class Plant:
         else:
             pass
 
+    def water():
+        pass
 
+    def nutritiate():
+        pass
+
+    def fertilize():
+        pass                 
+
+# in JAVA: public Class Cactus extends Plant {}
 class Cactus(Plant):
 
+    def __init__(self, size, name):
+        # Python does not automatically call the constructor of the base class Plant, you have to explicitly call it yourself.
+        Plant.__init__(self)
+        self.size = size
+        self.limit_of_proliferation = 4
+        self.name = name
 
+    def water():
+        Plant.decrease_size(1)
+        
+    def nutritiate():
+        Plant.increase_size(1)
+
+    def fertilize():
+        Plant.increase_size(1)        
 
 
