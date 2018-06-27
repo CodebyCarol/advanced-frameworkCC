@@ -23,7 +23,14 @@ How memory is managed in python?
 
 Define a class in python (OOP)
 
+    class Woman(People):
+
 Different types of inheritance in Python (single, multilevel, hierarchical, multiple) (OOP)
+
+    single: the same as in JAVA, one class has one parent like in the above example.
+    multilevel:
+    hierarchical:
+    multiple: in Python one class can have two (or more) parent class.
 
 What is the difference between deep and shallow copy? (OOP)
 
