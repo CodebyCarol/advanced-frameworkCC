@@ -1,6 +1,5 @@
 class Person:
     'it is a very basic excercise'
-    
     count_dudes = 0
     dudes = []
 
@@ -18,6 +17,8 @@ class Person:
     def display_dudes(self):
         print(self.dudes)
 
+    def say_hello(self):
+        print("Hello, my name is " + self.name)
 
 dude1 = Person("Newbie")
 dude2 = Person("Oldie")
@@ -25,6 +26,5 @@ dude2 = Person("Oldie")
 dude1.display_count()
 dude1.display_dude_name()
 dude1.display_dudes()
-    # def say_hello(self):
-    #     print("Hello, my name is " + self.name)
 
+dude2.say_hello()
