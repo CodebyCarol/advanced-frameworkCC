@@ -12,6 +12,7 @@ class Plant:
         self.name = name
         Plant.number_of_plants += 1
 
+    #without annotation it is static by default
     def is_live():
         pass
 
@@ -41,6 +42,8 @@ class Plant:
         pass                 
 
 # in JAVA: public Class Cactus extends Plant {}
+# can have multiple parent class (check how solved the diamond problem in python)
+# there is no abstract class, no interface
 class Cactus(Plant):
 
     def __init__(self, size, name):
