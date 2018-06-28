@@ -10,7 +10,7 @@ class Plant:
 
     def die(self):
         print("~~I am dying~~")
-        number_of_plants -= 1
+        Plant.plants.remove(self)
         live = False
 
     def tell_my_name(self):

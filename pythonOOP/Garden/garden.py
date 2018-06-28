@@ -18,6 +18,12 @@ class Garden:
         print(cactus1.name, "has been planted")
         print("There is", len(Plant.plants), "plant in the Garden")
 
+        cactus1.die()
+        print("There is", len(Plant.plants), "plant in the Garden")
+
+        plant1.die()
+        print("There is", len(Plant.plants), "plant in the Garden")
+
 
 garden = Garden("New Garden")
 
