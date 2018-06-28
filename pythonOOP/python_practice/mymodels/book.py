@@ -7,7 +7,7 @@ class Book():
     def list_all_books(cls):
         print("These are the books in the library:")
         for instance in cls.instances:
-            print(cls.instance.title)
+            print(instance.title)
 
     @staticmethod
     def say_hello_to_librarian():

@@ -12,6 +12,9 @@ class Book:
         for instance in cls.instances:
             print(instance.title)
 
-    @staticmethod
     def read_up_itself(self):
-        print(self.title)        
+        print(self.title)    
+
+    @staticmethod
+    def say_hello_to_librarian(self):
+        print("Hello Librarian!")
