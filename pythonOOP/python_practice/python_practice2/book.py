@@ -10,7 +10,7 @@ class Book:
     @classmethod
     def list_all_books(cls):
         for instance in cls.instances:
-            print(cls.title)
+            print(instance.title)
 
     @staticmethod
     def read_up_itself(self):
