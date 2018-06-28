@@ -7,4 +7,4 @@ class Cactus(Plant):
         self.name = name
         self.size = size
         self.max_size = max_size
-        # super.__class__.plants.append(self)
+        Plant.plants.append(self)

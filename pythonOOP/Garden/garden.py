@@ -16,6 +16,7 @@ class Garden:
         cactus1 = Cactus("karacsonyi kaktusz", 5, 7)
 #        cactus1.tell_my_name()
         print(cactus1.name, "has been planted")
+        print("There is", len(Plant.plants), "plant in the Garden")
 
 
 garden = Garden("New Garden")
