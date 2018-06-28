@@ -1,4 +1,5 @@
 from plant import Plant
+from cactus import Cactus
 
 
 class Garden:
@@ -10,8 +11,12 @@ class Garden:
 
     def gardening(self):
         plant1 = Plant("noveny")
-        plant1.tell_my_name
         print(plant1.name, "has been planted")
+
+        cactus1 = Cactus("karacsonyi kaktusz", 5, 7)
+#        cactus1.tell_my_name()
+        print(cactus1.name, "has been planted")
+
 
 garden = Garden("New Garden")
 
