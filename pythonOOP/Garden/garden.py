@@ -23,6 +23,7 @@ class Garden:
 
         plant1.die()
         print("There is", len(Plant.plants), "plant in the Garden")
+        print(cactus1.live)
 
 
 garden = Garden("New Garden")
