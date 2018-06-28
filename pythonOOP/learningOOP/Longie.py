@@ -17,6 +17,8 @@ class Longie(Blondie):
         print("this is a very unique Blondie method overrided in Longie")
 
 longie1 = Longie("Rapunzel", 400)
+blondie2 = Blondie("Summer")
 
 print(longie1.haircolor)        
 longie1.blondie_method() 
+blondie2.blondie_method()
