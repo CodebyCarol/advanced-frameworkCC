@@ -1,12 +1,13 @@
-class Book:
+class Book():
 
     instances = []
+    title
 
     @classmethod
     def list_all_books(cls):
         print("These are the books in the library:")
         for instance in cls.instances:
-            print(instance.title)
+            print(cls.instance.title)
 
     @staticmethod
     def say_hello_to_librarian():
