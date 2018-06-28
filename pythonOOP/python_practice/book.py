@@ -18,3 +18,6 @@ class Book:
     @staticmethod
     def say_hello_to_librarian(self):
         print("Hello Librarian!")
+
+    def gross_price(self):
+        print(self.price * 1.27)
