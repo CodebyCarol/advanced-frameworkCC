@@ -15,8 +15,10 @@ https://app.pluralsight.com/library/courses/spring-jpa-hibernate/table-of-conten
 Java Microservices with Spring Cloud: Developing Services (4h 42min)
 https://app.pluralsight.com/library/courses/java-microservices-spring-cloud-developing-services/table-of-contents
 
+07/03: Pluralsight:
+Spring Security Fundamentals (4h)
+https://app.pluralsight.com/library/courses/spring-security-fundamentals/table-of-contents
 
-07/03: 
 07/04:
 07/05:
 07/06:
