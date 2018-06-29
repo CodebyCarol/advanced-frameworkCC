@@ -14,15 +14,12 @@ Plan for the period 06/18-06/29:
 06/29: starting again with the pet project, earlier has been validated, the scrummo (trello-like scrum page)
 
 
-[0]Codewars - java - 7 kyu (1x)
-[0]Codewars - Python - 8kyu (4x) 7 kyu (2x) (15/10 cherries)
-[0]creating SI week material about Machine Learning
+[0.5]Codewars - Python - 8kyu (4x) 7 kyu (2x) java - 7 kyu (1x) (15/10 cherries)
 [1]preparing for Lensa interview (first round, written test)
 [1]writing test at Lensa
-[0]implementing binary search tree in python
 [1]reading about machine learning, watching videos about machine learning and big data
-[1]preparing for Lensa round 2 (I am optimistic :p) python OOP, consultation
-[0]creating test book for python spec. questions - in process
+[2]preparing for Lensa round 2 (I am optimistic :p) python OOP, consultation
+[1]creating test book for python spec. questions - in process
 
-06/26: 9/4
+06/26: 9/6,5
 
