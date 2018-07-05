@@ -19,7 +19,7 @@ https://app.pluralsight.com/library/courses/java-microservices-spring-cloud-deve
 Spring Security Fundamentals (4h)
 https://app.pluralsight.com/library/courses/spring-security-fundamentals/table-of-contents
 
-07/04:
+07/04: 
 07/05:
 07/06:
 07/07:
@@ -32,35 +32,12 @@ https://app.pluralsight.com/library/courses/spring-security-fundamentals/table-o
 -----------
 ACHIEVED:
 -----------
-DAY1 :
+DAY1-4: sick
 ------
-  -
-  -
-  -
-
-
-DAY2 :
-------
-  -
-  -
-  -
-
-DAY3 :
-------
-  -
-  -
-  -
-
-DAY4 :
-------
-  -
-  -
-  -
-
 DAY5 :
 ------
-  -
-  -
+  - finishing and updating sprint plan
+  - Spring Fundamentals (Pluralsights)
   -
 
 DAY6 :
