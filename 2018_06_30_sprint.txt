@@ -1,66 +1,38 @@
 Sprint plan for period 06/30-07/13:
 
-(06/29: Pluralsight: Understanding Machine Learning with Python (2h)
-https://app.pluralsight.com/library/courses/python-understanding-machine-learning/table-of-contents)
-
-06/30: Codewars, HackerRank python, java (1-2h)
-Pluralsight: Spring fundamentals (3h)
+07/09: Codewars, HackerRank python, java (1-2h)
+Pluralsight: Spring fundamentals (3h) (in process... said it is 3h, I am doing it for 8 hours now)
 https://app.pluralsight.com/library/courses/spring-fundamentals/recommended-courses
 
-07/01: Pluralsight: 
+07/10-11: Pluralsight: 
 Spring with JPA and Hibernate (5h)
 https://app.pluralsight.com/library/courses/spring-jpa-hibernate/table-of-contents
 
-07/02: Pluralsight:
+07/12-13: Pluralsight:
 Java Microservices with Spring Cloud: Developing Services (4h 42min)
 https://app.pluralsight.com/library/courses/java-microservices-spring-cloud-developing-services/table-of-contents
 
-07/03: Pluralsight:
-Spring Security Fundamentals (4h)
-https://app.pluralsight.com/library/courses/spring-security-fundamentals/table-of-contents
-
-07/04: 
-07/05:
-07/06:
-07/07:
-07/08:
-07/09:
-07/10:
-07/11:
-07/12:
-07/13:
 -----------
 ACHIEVED:
 -----------
-DAY1-4: sick
+DAY1-4: personal
 ------
 DAY5 :
 ------
   - finishing and updating sprint plan
   - Spring Fundamentals (Pluralsights)
-  -
-
-DAY6 :
+ 
+DAY 6-7: weekend
 ------
-  -
-  -
-  -
-
-DAY7 :
-------
-  -
-  -
-  -
-
 DAY8 :
 ------
-  -
-  -
-  -
+  - Spring Fundamentals (Pluralsights)
+  - Codewars
+  - Reading the tech interview doc for tomorrow interview
 
 DAY9 :
 ------
-  -
+  - GE interview
   -
   -
 
@@ -88,10 +60,7 @@ DAY13 :
   -
   -
 
-DAY14 :
-------
-  -
-  -
-  -
-
 SUGGESTED POINTS:
+Interview - 
+Codewars -
+Pluralsight - 
