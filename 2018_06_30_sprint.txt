@@ -29,6 +29,7 @@ DAY8 :
   - Spring Fundamentals (Pluralsights)
   - Codewars
   - Reading the tech interview doc for tomorrow interview
+  - Testing automation (Pluralsights), The big picture - 1h
 
 DAY9 :
 ------
