@@ -47,8 +47,8 @@ DAY10 :
 
 DAY11 :
 ------
-  -
-  -
+  - JAVA Microservices with Spring Cloud (pluralsight and excercise)
+  - Codewars (6kyu) (Java, expanded number)
   -
 
 DAY12 :
@@ -67,5 +67,6 @@ SUGGESTED POINTS:
 Interview + Pluralsight devops, testing - 2pt
 Codewars -
 Pluralsight Spring Fundamentals - 1pt 
+Pluralsight: Microservices with Spring cloud
 
 9/3pt
