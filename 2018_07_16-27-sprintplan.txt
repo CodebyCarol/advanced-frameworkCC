@@ -1,0 +1,74 @@
+SPRINT PLAN:
+
+Day1: 
+-----
+start refreshing Spring MVC, Hibernate, Spring security, AOP, REST and Spring Webflow via Pluralsight
+https://app.pluralsight.com/library/courses/build-web-app-spring-mvc-hibernate-bootstrap-rest-service/table-of-contents
+
+This day I will go through the first two part of the course (cca 2h video), it covers spring core framework, development environment, 
+spring inversion of control, dependency injection by constructor, dependency injection by property, auto wiring, bean scopes, 
+spring bean life cycle, core annotations, understanding Spring MVC Architecture, Spring MVC Configuration, creating spring controller
+and view, adding data to spring model.
+
+
+Day2: 
+-----
+Redesign (if needed) the structure of my earlier planned project (Scrummo - a helping tool for scrum management) 
+- this sprint plan was earlier approved
+creating a login page with a single user (without any permission handling)
+writing tests
+
+Go on with the pluralsight course with the next 3 parts:
+- handling spring tags and data bindings (15min video + practicing)
+- handling request parameters and request mappings ( 28min video + practicing)
+- applying built-in validation rules (39min video + practicing)
+
+
+Day3: 
+-----
+after a user logged in, can edit his/her datas
+writing tests
+
+Go on with the pluralsight course with the next parts:
+- performing CRUD operations with Hibernate (58min video + practicing)
+- managing exceptions through aspect-oriented programming(31min video + practicing)
+
+Day4: 
+-----
+after a user logged in, can create and edit a project and it is saved after he logged out.
+
+Go on with the pluralsight course:
+- modifying the front-end with bootstrap (34 min video + practicing)
+- securing the application (32min video + practicing)
+
+
+Day5: 
+-----
+a project have many user story, which can be added, edited
+
+go on with the pluralsight course:
+- Creating REST services (27min video + practicing)
+
+Day6: 
+-----
+a user story can be flagged
+
+Day7: 
+-----
+refactoring the written code
+
+Day8: 
+-----
+designing the page
+
+Day9: 
+-----
+debugging :)
+
+Day10: 
+-----
+demo, go on with the projects
+finishing pluralsigh course:
+- directing users based on role with spring web flow
+
+
