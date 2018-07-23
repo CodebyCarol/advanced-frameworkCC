@@ -1,9 +1,7 @@
 package com.example.application;
 
-import com.example.model.CurrentAccount;
-import com.example.model.SavingAccount;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 @SpringBootApplication
 public class Application {
@@ -11,11 +9,14 @@ public class Application {
 	public static void main(String[] args) {
 		// SavingAccount savingAccount = new SavingAccount();
 
-		Account savingAccount = new SavingAccount();
-		Account currentAccount = new CurrentAccount();
+		// Account savingAccount = new SavingAccount();
+		// Account currentAccount = new CurrentAccount();
 
-		System.out.println(savingAccount.createAccount());
-		System.out.println(currentAccount.createAccount());
+		ClassPathXmlApplicationContext context =
+				new ClassPathXmlApplicationContext("ApplicationContext.xml");
+		Account account = context.getBean("myAccount", Account.class);
+		System.out.println(account.createAccount());
+		// System.out.println(currentAccount.createAccount());
 		// SpringApplication.run(Application.class, args);
 	}
 }
