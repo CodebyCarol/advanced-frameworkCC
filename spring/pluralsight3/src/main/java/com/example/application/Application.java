@@ -16,6 +16,7 @@ public class Application {
 				new ClassPathXmlApplicationContext("ApplicationContext.xml");
 		Account account = context.getBean("myAccount", Account.class);
 		System.out.println(account.createAccount());
+		System.out.println(account.cardDetails());
 		// System.out.println(currentAccount.createAccount());
 		// SpringApplication.run(Application.class, args);
 	}

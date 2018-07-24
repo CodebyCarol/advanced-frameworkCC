@@ -1,7 +1,7 @@
 package com.example.application;
 
-public interface Account {
+public interface Card {
 
-    public String createAccount();
     public String cardDetails();
+
 }

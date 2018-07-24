@@ -8,4 +8,9 @@ public class CurrentAccount implements Account {
     public String createAccount() {
         return "CurrentAccount has been created";
     }
+
+    @Override
+    public String cardDetails() {
+        return null;
+    }
 }
