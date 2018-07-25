@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <bean id="creditCard"
+    <bean id="myCard"
           class="com.example.model.CreditCard"/>
 
     <!--bean id="myAccount"
@@ -13,7 +13,7 @@
     </bean-->
     <bean id="myAccount"
           class="com.example.model.CurrentAccount"
-          autowire="byName">
+          autowire="byType">
         <!--property name="creditCard" ref="myCard"/-->
     </bean>
 </beans>
