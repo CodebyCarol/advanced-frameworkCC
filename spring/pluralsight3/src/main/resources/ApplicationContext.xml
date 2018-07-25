@@ -5,11 +5,14 @@
        http://springframework.org/schema/beans/spring-beans-3.0.xsd">
 
     <bean id="myCard"
-          class="com.example.model.ATMCard"/>
+          class="com.example.model.CreditCard"/>
 
-    <bean id="myAccount"
+    <!--bean id="myAccount"
           class="com.example.model.SavingAccount">
           <constructor-arg ref="myCard"/>
+    </bean-->
+    <bean id="myAccount"
+          class="com.example.model.CurrentAccount">
+        <property name="creditCard" ref="myCard"/>
     </bean>
-
 </beans>
