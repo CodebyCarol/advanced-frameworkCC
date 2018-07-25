@@ -13,7 +13,8 @@
     </bean-->
     <bean id="myAccount"
           class="com.example.model.CurrentAccount"
-          autowire="byType">
+          autowire="byType"
+          scope="singleton">
         <!--property name="creditCard" ref="myCard"/-->
     </bean>
 </beans>
