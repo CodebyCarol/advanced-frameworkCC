@@ -1,6 +1,6 @@
 Day1: -
 
-Day2: - 
+Day2: - Codewars - 0pt
 
 Day3: Pluralsight: Spring
 
@@ -10,12 +10,15 @@ Day5: Pluralsight: Spring
 
 Day6:
 
-Day7:
+Day7: Codewars dojos - 1pt
 
-Day8: preparing for GE Healtcare interview
+Day8: preparing for GE Healthcare interview
+https://storage.googleapis.com/test-institute/Software_Testing_Revealed_by_International_Software_Test_Institute.pdf
+reading about software testing
+1pt
 
 Day9: preparing for Intalion interview
 
 Day10: Healtcare interview, Intalion interview
 
-10/4
+10/6pt
