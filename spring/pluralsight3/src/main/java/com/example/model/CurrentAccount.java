@@ -2,9 +2,11 @@ package com.example.model;
 
 import com.example.application.Account;
 import com.example.application.Card;
+import org.springframework.beans.factory.annotation.Autowired;
 
 public class CurrentAccount implements Account {
 
+    @Autowired
     private Card creditCard;
 
     @Override
