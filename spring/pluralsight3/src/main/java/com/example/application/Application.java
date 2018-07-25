@@ -17,14 +17,15 @@ public class Application {
 
 		Account account1 = context.getBean("myAccount", Account.class);
 		Account account2 = context.getBean("myAccount", Account.class);
-		System.out.println(account1.createAccount());
-		System.out.println(account1.cardDetails());
-		System.out.println(account2.createAccount());
-		System.out.println(account2.cardDetails());
+		// System.out.println(account1.createAccount());
+		// System.out.println(account1.cardDetails());
+		// System.out.println(account2.createAccount());
+		// System.out.println(account2.cardDetails());
 
 		boolean isSame = (account1 == account2);
-		System.out.println(isSame);
-
+		System.out.println("account 1  and account2 points to the same object: "+ isSame);
+		System.out.println("account1 hash: " + account1.hashCode());
+		System.out.println("account2 hash: " + account2.hashCode());
 		// System.out.println(currentAccount.createAccount());
 		// SpringApplication.run(Application.class, args);
 	}
